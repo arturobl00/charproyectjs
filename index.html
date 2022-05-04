@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Librerias de FIREBASE-->
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js"></script>
+    <!--Libreria Bootstap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <style>@import 'index.css';</style>
+    <title>Proyecto Chat Unidad 4</title>
+</head>
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#!">Proyecto de Chat con Realtime Database</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="index.html"> </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Contenido Titulo-Chat-->
+    <div class="text-center">
+        <div class="container">
+            <h1>Proyecto de Chat con Realtime Database</h1>
+            <h3>Emmanuel Tobon Ramirez</h3>
+        <form>
+            <div>
+        <div class="container">
+        <div class="col-md-10 col-xl-12 chat">
+        <div class="card">
+        <div class="card-header msg_head">
+        <div class="d-flex bd-highlight">
+         <h1 class="text-center">Chat con Firebase - Realtime Database</h1>		
+            </div>
+                 </div>
+            <div class="card-body msg_card_body">
+              <div class="d-flex justify-content-start ">
+                 <div class="row comments">
+                     <div>
+                     <ol id="chatlista">                                            
+                       </ol>
+                        </div>
+                            </div>
+                             </div>
+                           </div>
+                                </div>
+                                    <br>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="inputGroup-sizing-default" margin="10px"/>Usuario</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="usuario">
+                          </div>
+                    <div>
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="inputGroup-sizing-default">Mensaje</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="mensaje">
+                            <div class="input-group-btn">
+                                <a class="btn btn-primary" id="btnenviar">
+                                  <i class="fa fa-envelope"></i> Enviar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+        
+                <br/>
+                
+            
+            </div>
+        
+            <script src="app.js"></script>
+
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
+    
+</body>
+</html>

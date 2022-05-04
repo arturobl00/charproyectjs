@@ -1,0 +1,42 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  background: url("fondo.jpg");;
+  /*text-align: center;*/
+}
+
+.card-footer {
+border-radius: 0 0 15px 15px 0 0 !important;
+border-top: 0 !important;
+}
+
+
+.msg_head{
+position: relative;
+}
+
+.txt{
+text-emphasis-color: #df67d1;
+
+}
+.card{
+height: 450px;
+}
+
+.msg_card_body{
+overflow-y: auto;
+}
+
+
+.chat{
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 10px;
+background-color: #056bb2;
+padding: 10px;
+position: relative;
+}
+
+.msg_card_body{
+ overflow-y: auto;
+
+}
